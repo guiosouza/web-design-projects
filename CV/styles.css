@@ -126,4 +126,41 @@ body {
 
 .experience-info-container {
     border-top: 1px solid #636363;
+    height: 843px;
+}
+
+.experience-info-container {
+    display: flex;
+}
+
+.experience-info-title-container {
+    display: flex;
+    position: relative;
+    width: 400px;
+}
+
+
+.experience-info-container h1 {
+    font-size: 80px;
+    color: #666666;
+    transform-origin: bottom;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -130%) rotate(-90deg);
+}
+
+.experience-intro-info {
+    padding: 50px;
+    width: 800px;
+}
+
+
+.experience-intro-info p {
+    font-size: 22px;
+}
+
+.experience-intro-info-general-description {
+    width: 668px;
+    line-height: 32px;
 }
