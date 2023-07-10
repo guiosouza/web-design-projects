@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.site-container {
+    background-color: #DFDECF;
+    display: flex;
+    justify-content: center;
+    padding: 30px 117px 49px 118px;
+    font-family: 'Pathway Extreme', sans-serif
+}
+
+.site-card {
+    width: 1200px;
+    height: 2515px;
+    background-color: #FCFBF8;
+    box-shadow: 3px 0px 120px 0px rgba(0, 0, 0, 0.25), -5px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 54px 23px 60px;
+    border-bottom: 1px solid #636363;
+}
+
+.nav-bar-container ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-bar-container li:nth-child(1),
+.nav-bar-container li:nth-child(2) {
+    margin-right: 30px;
+}
+
+.intro-container {
+    display: flex;
+}
+
+.avatar-img-container {
+    display: flex;
+    height: 533px;
+    width: 400px;
+    border-right: 1px solid #636363;
+    position: relative;
+}
+
+.avatar-img-box {
+    margin-top: 73px;
+    margin-left: 55px;
+    height: 390px;
+    width: 285px;
+    background-color: #DFDECF;
+    border: 1px solid #636363;
+}
+
+.avatar-img-box-top-line-shadow {
+    margin-top: 84px;
+    width: 8px;
+    height: 1px;
+    background-color: #636363
+}
+
+.avatar-img-box-right-line-shadow {
+    margin-top: 84px;
+    width: 1px;
+    height: 390px;
+    background-color: #636363
+}
+
+.avatar-img-box-bottom-line-shadow {
+    margin-left: 65px;
+    margin-top: 473px;
+    position: absolute;
+    width: 284px;
+    height: 1px;
+    background-color: #636363
+}
+
+.avatar-img-box-left-line-shadow {
+    margin-left: 65px;
+    margin-top: 463px;
+    position: absolute;
+    width: 0.8px;
+    height: 10px;
+    background-color: #636363
+}
+
+.intro-info-container {
+    padding: 120px 135px 120px 38px;
+    position: relative;
+}
+
+.intro-info-container img {
+    position: absolute;
+    top: 1;
+    left: 1;
+}
+
+.intro-info-container h1 {
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-size: 56px;
+    width: 610px;
+    color: #3D3D3D;
+}
+
+.intro-info-container p {
+    font-size: 24px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    color: #3D3D3D
+}
+
+.experience-info-container {
+    border-top: 1px solid #636363;
+}
