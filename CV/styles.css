@@ -18,7 +18,7 @@ body {
 
 .site-card {
     width: 1200px;
-    height: 2515px;
+    height: 2615px;
     background-color: #FCFBF8;
     box-shadow: 3px 0px 120px 0px rgba(0, 0, 0, 0.25), -5px 4px 50px 0px rgba(0, 0, 0, 0.25);
 }
@@ -126,6 +126,7 @@ body {
 
 .experience-info-container {
     border-top: 1px solid #636363;
+    border-bottom: 1px solid #636363;
     height: 843px;
 }
 
@@ -147,7 +148,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-40%, -130%) rotate(-90deg);
+    transform: translate(-40%, -220%) rotate(-90deg);
 }
 
 .experience-intro-info {
@@ -163,4 +164,62 @@ body {
 .experience-intro-info-general-description {
     width: 668px;
     line-height: 32px;
+    margin-top: 90px;
+}
+
+.experience-container {
+    margin-top: 70px;
+}
+
+.experience-intro-info-work-experience-1 h3 {
+    margin-bottom: 4px
+}
+
+.experience-intro-info-work-experience {
+    font-size: 14px;
+    width: 316px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-intro-info-work-experience p {
+    font-size: 14px;
+    width: 316px;
+    margin-top: 0px;
+}
+
+.job2-atributes-container {
+    margin-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job2-atributes-container h3 {
+    width: 250px;
+}
+
+.job2-atribute-a {
+    width: 115px;
+    border: 1px solid #636363;
+    margin-right: 10px;
+    padding: 5px 10px;
+    height: 47px;
+}
+
+.job2-atribute-a p {
+    line-height: 32px;
+    height: 30px;
+}
+
+.job2-atribute-b {
+    width: 111px;
+    border: 1px solid #5c5c5c;
+    padding: 5px 10px;
+    height: 47px;
+}
+
+.job2-atribute-b p {
+    line-height: 32px;
+    height: 30px;
 }
