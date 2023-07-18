@@ -127,7 +127,6 @@ body {
 
 .experience-info-container {
     border-top: 1px solid #636363;
-    border-bottom: 1px solid #636363;
     height: 843px;
 }
 
@@ -215,8 +214,6 @@ body {
     flex-wrap: wrap;
 }
 
-
-
 .job-atributes-container h3 {
     width: 310px;
 }
@@ -234,4 +231,164 @@ body {
     line-height: 32px;
     height: 30px;
     width: auto;
+}
+
+/************************* FORMAÇÃO *************************/
+
+.formation-info-container {
+    border-top: 1px solid #636363;
+    border-bottom: 1px solid #636363;
+    height: 843px;
+    background-color: #F2F2F2;
+}
+
+.formation-container h3 {
+    font-size: 18px;
+}
+
+.formation-description p:nth-last-of-type(1) {
+    display: flex;
+    width: 208px;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+
+.languages-description {
+    width: 300px;
+    flex-wrap: wrap-reverse;
+}
+
+.formation-info-container {
+    display: flex;
+}
+
+.formation-info-container .year {
+    color: #3D3D3D
+}
+
+.year {
+    position: absolute;
+    margin-top: 313px;
+    margin-left: 320px;
+}
+
+.year:nth-last-of-type(1) {
+    position: absolute;
+    margin-top: 465px;
+    margin-left: 320px;
+    left: 1;
+}
+
+.formation-info-title-container {
+    display: flex;
+    position: relative;
+    width: 400px;
+}
+
+
+.formation-info-container h1 {
+    font-size: 80px;
+    color: #666666;
+    transform-origin: bottom;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -220%) rotate(-90deg);
+}
+
+.formation-intro-info {
+    padding: 40px;
+    width: 800px;
+}
+
+
+.formation-intro-info p {
+    font-size: 22px;
+}
+
+.formation-intro-info-general-description {
+    width: 668px;
+    line-height: 32px;
+    margin-top: 90px;
+    color: #525252
+}
+
+.formation-container {
+    margin-top: 70px;
+    color: #525252
+}
+
+.formation-row h3 {
+    margin-bottom: 4px
+}
+
+.formation-row {
+    font-size: 14px;
+    width: 316px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formation-row p {
+    font-size: 14px;
+    width: 316px;
+    margin-top: 0px;
+}
+
+.formation-atributes-container {
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formation-atributes-container h3 {
+    width: 310px;
+}
+
+.formation-atribute p {
+    line-height: 32px;
+    height: 30px;
+    width: auto;
+}
+
+/************************* CONTATO *************************/
+
+.contact-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 55px;
+    flex-wrap: wrap;
+    height: 499px
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    color: #3D3D3D
+}
+
+.contact-info img {
+    position: absolute;
+    margin-left: 115px;
+    margin-bottom: 90px
+}
+
+.contact-info p {
+    width: 369px;
+    margin-left: 167px
+}
+
+.contact-info h3 {
+    margin-bottom: 70px;
+    margin-left: 180px;
+}
+
+.dedication {
+    font-size: 14px;
+    width: 375px;
+}
+
+.dedication p {
+    width: 375px;
 }
